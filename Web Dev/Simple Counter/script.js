@@ -10,15 +10,15 @@ res.addEventListener("click",makezero)
 function increase() {
   a = Number(num.textContent);
   a++;
-  num.innerHTML = `${a}`;
+  num.innerHTML = `<strong>${a}</strong>`;
 }
 
 function decrease() {
   a = Number(num.textContent);
   a--;
-  num.innerHTML = `${a}`;
+  num.innerHTML = `<strong>${a}</strong>`;
 }
 
 function makezero() {
-  num.innerHTML = `0`;
+  num.innerHTML = `<strong>0</strong>`;
 }
