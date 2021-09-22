@@ -1,0 +1,19 @@
+.body-bg {
+  background-color: rgb(186, 228, 208);
+}
+
+.roundedshow {
+  width: 150px;
+  height: 150px;
+}
+
+.sidesq {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+}
+.sidesq2 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(186, 228, 208);
+}

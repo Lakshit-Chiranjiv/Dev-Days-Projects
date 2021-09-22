@@ -11,14 +11,40 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1 class="bg-success text-light p-4 text-center">
+  <body class="body-bg">
+    <h1 class="bg-success text-light p-4 text-center mb-5">
       Simple Counter
     </h1>
 
     <div class="lowerbody">
-      <h1 id="number" class="display-1 m-4 text-center"><strong>0</strong></h1>
+      <div class="d-flex justify-content-around">
+        <div class="sidesq2"></div>
+        <div
+          class="roundedshow ms-5 d-flex align-items-center justify-content-center p-3 rounded-circle border border-danger border-3 bg-info"
+        >
+          <h1 id="number" class="display-1 m-4 text-center">
+            <strong>0</strong>
+          </h1>
+        </div>
+
+        <div class="jumpval d-flex align-items-center">
+          <div class="selc">
+            <input
+              id="jval"
+              type="text"
+              class="form-control"
+              placeholder="enter jump value"
+            />
+            <br />
+            <button id="btj" class="btn btn-lg btn-dark m-1 ms-0">
+              <strong>select</strong>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div class="buttons m-3 text-center">
         <button id="btminus" class="bb btn btn-lg btn-primary m-4">
           <strong>-</strong>
@@ -26,7 +52,7 @@
         <button id="btplus" class="btn btn-lg btn-warning m-4">
           <strong>+</strong>
         </button>
-        <br>
+        <br />
         <button id="btreset" class="btn btn-lg btn-danger m-4 text-center">
           <strong>RESET</strong>
         </button>
